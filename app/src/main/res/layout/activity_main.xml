@@ -18,6 +18,15 @@
             android:textStyle="bold"
             android:textColor="#FFFFFF" />
 
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="#00979D"
+            android:text="Cerrar sesión"
+            android:textColor="#FFFFFF" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Administración"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supervisión del sistema domótico"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado de conexión"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtConexionAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desconectado"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="#222222"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Información de sensores"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtMovimientoAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movimiento: Sin movimiento"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="#222222"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtLuzAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iluminación: Sin datos"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="#222222"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtEstadoLamparaAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lámpara: Apagada"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="#222222"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestión del sistema"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnGestionarUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestionar usuarios"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00979D"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnVerRegistros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver registros del sistema"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00979D"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnCerrarSesionAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar sesión"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00979D" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
